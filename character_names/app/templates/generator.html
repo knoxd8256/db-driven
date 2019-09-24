@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+    {% block content %}
+    <p> Your names have been generated below. </p>
+    <section>
+        {% for name in names %}
+            <p>{{ name }}</p>
+        {% endfor %}
+    </section>
+    {% endblock %}

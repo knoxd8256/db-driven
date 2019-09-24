@@ -1,0 +1,22 @@
+Project 1: km <--> mi
+
+    Input:  
+            "What are we converting from? km or mi?"
+            "How many $unit?"
+    Process: 
+            Multiply based on units.
+    Output: 
+            "You entered $distance1 $unit1s. That's $distance2 $unit2s."
+
+    Pseudocode:
+        PRINT "Enter your starting unit, mi or km."
+        FUNCTION unitChoice(unit1) {
+            if unit1 == mi:
+                unit2 = km;
+            elif unit1 == km:
+                unit2 = mi;
+            else:
+                PRINT: "Enter mi or km";
+                call unitChoice
+        }
+        FUNCTION distance

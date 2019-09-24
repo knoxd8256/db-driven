@@ -1,0 +1,27 @@
+To_Name
+To_Address_row1
+To_Address_row2
+To_City
+To_State
+To_ZIP
+
+From_Name
+From_Address_row1
+From_Address_row2
+From_City
+From_State
+From_ZIP
+
+The output should look something like this:
+Note that if the Address_row2 is empty, you do no print an emtpy line
+
+______________________________________________________________________
+|                                                                                                                            
+| Margie Dietz                                                                                                       
+| 123 Main St.                                                                                                       
+| Durham, NC 27703                                                                                            
+|                                                      Tim Smith                                                      
+|                                                      Durham Tech Community College                
+|                                                       321 Broad St                                                
+|                                                      Saxaflaxen, NC 23333                                  
+| _____________________________________________________________________
