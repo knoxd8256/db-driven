@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <META name="description" content="
+Welcome White Oak IT, Inc.   We develop innovative business solutions using digital photography, multimedia, website design, MYSQL and ACCESS databases, and Flash. We also provide customized classes in Dreamweaver, and Microsoft Office tools." />
+
+    <META name="keywords" content="Durham, NC, Computer, Flash, MYSQL, classes, instruction, business, referrals, networking" />
+
+    <title>White Oak IT - {{ title }}</title>
+    <link href="static/css/{{ css }}.css" rel="stylesheet">
+</head>
+
+<body class="oneColFixCtr">
+
+    <div id="container">
+        <div id="header"><img src="static/images/WhiteOakBanner.gif" width="722" height="100" alt="White Oak Banner" /></div>
+        <div id="nav">
+            <ul>
+                <li><a href="index">Home</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="classes">Classes</a></li>
+                <li><a href="solutions">Solutions</a></li>
+                <!--	<li><a href="customers.html">Our Customers</a></li>
+  		<li><a href="./blog" target="_blank">Blog</a></li>    -->
+            </ul>
+        </div>
+        {% block content %} {% endblock %}
+        <div id="footer">
+            <div id="nav">
+                <ul>
+                    <li><a href="mailto:Margie@WhiteOakIT.com">eMail Us</a></li>
+                    <li class="style10"><span class="style11 style8"> Phone Us (919-</span><span class="style11 style8">493-9393) </span></li>
+                </ul>
+            </div>
+            <div align="center" class="style9">White Oak IT, Inc. Durham, NC </div>
+        </div>
+    </div>
+</body>
+
+</html>

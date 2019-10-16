@@ -1,0 +1,101 @@
+{% extends "base.html" %} {% block content %}
+<div id="mainContent">
+    <table>
+        <tr>
+            <td>
+                <div class="style4 style8" id="leftbox2">
+                    <div id="margietext">
+                        <div id="margiename"><strong>Margie Dietz</strong></div>
+                        Margie worked and published collaboratively with scientists at Duke Medical Center for eight years, including an international project in Cairo, Egypt. She received her PhD in 1996, then worked for IBM for ten years in the sub-specialty of Software Performance
+                        Engineering (making software run fast!).
+                        <p>Margie has taught courses at Duke, presented at the local schools and museums, and trained scuba divers for 15 years in association with Water World in Durham. In 1995, Margie won the <a href="http://www.cmg.org/national/mullen-awards.html">J. William Mullen Award</a>                            for exceptional presentation from Computer Measurement Group. </p>
+                    </div>
+                </div>
+                <!--End Leftbox2 -->
+            </td>
+
+            <td>
+                <div id="rightbox">
+
+
+                    <div id="photo1">
+                        <div> <img src="static/images/MargieBirthday.jpg" alt="Margie" /></div>
+
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="rightbox">
+
+
+                    <div id="photo1">
+                        <div align="right"><img src="static/images/Mary.jpg" alt="Mary" /></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="style4 style8" id="leftbox2">
+                    <div id="marytext">
+                        <div id="MaryName"><strong>Mary Mace</strong></div>
+
+                        Mary is a native of North Carolina. She received her PhD in Computer Science from Duke in 1983. She was a software developer for IBM and SAS for the next 20 years.
+                        <p>In 2004 she became an independent contractor, specializing in Internet software. She also began volunteering in the Orange County public schools. She helped children of all ages with reading and math. In 2005 she participated in
+                            the NC Teach program, a UNC summer workshop designed to retrain professionals to be teachers. </p>
+                        <p>Mary is also a pianist. She plays every Wednesday at Charles House for their Song Circle program. </p>
+                    </div>
+                </div>
+                <!--End Leftbox2 -->
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="style4 style8" id="leftbox2">
+                    <div id="margietext">
+                        <div id="margiename"><strong>Amber Jones</strong></div>
+                        <p>Amber is also a North Carolina native. She is a 1997 graduate of North Carolina State University's College of Design. After graduating she began her career as a graphic designer for Homes & Land of Raleigh. As the company grew
+                            to include another publication, Pinehurst Magazine, she was named Creative Director. In 2003, after the birth of her first child, Ethan, Amber decided to pursue her dream of being a freelance designer so that she could be home
+                            with her son. (Her family just recently expanded with the birth of her daughter, Lily, in June.) </p>
+                        <p>
+
+                            Amber loves working one-on-one with clients to develop a "look" that perfectly suits their needs. Whether it is their company's identity or an advertisment, she enjoys working closely with the client to achieve a finished product that accurately and beautifully
+                            conveys their message.</p>
+                    </div>
+                </div>
+                <!--End Leftbox2 -->
+            </td>
+
+            <td>
+                <div id="rightbox">
+
+
+                    <div id="photo1">
+                        <div><img src="static/images/amber.jpg" alt="Amber" /></div>
+
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+
+    </table>
+
+    <!-- end #mainContent -->
+</div>
+<script type="text/javascript">
+    function hello() {
+        alert('HELLO GOODBYE');
+    }
+
+    function talkMargie() {
+        alert('HELLO GOODBYE');
+        soundManager.play('talkingMargie');
+    }
+</script>
+<script type="text/javascript" src="script/soundmanager.js"></script>
+<!-- end #container -->
+<script type="text/javascript">
+    soundManagerInit();
+</script>
+{% endblock %}
